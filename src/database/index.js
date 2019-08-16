@@ -7,13 +7,13 @@ class Database {
 
   init() {
     this.firebaseConfig = {
-      apiKey: 'AIzaSyAK29MJmxhC1_wOyyyILCkCEDQnY47M6mA',
-      authDomain: 'winkforyou-91363.firebaseapp.com',
-      databaseURL: 'https://winkforyou-91363.firebaseio.com',
-      projectId: 'winkforyou-91363',
-      storageBucket: '',
-      messagingSenderId: '859609224753',
-      appId: '1:859609224753:web:ec680e9adb5fc868',
+      apiKey: process.env.API_KEY,
+      authDomain: process.env.AUTH_DOMAIN,
+      databaseURL: process.env.DATABASE_URL,
+      projectId: process.env.PROJECT_ID,
+      storageBucket: process.env.STORAGE_BUCKET,
+      messagingSenderId: process.env.MESSAGING_SENDER_ID,
+      appId: process.env.APP_ID,
     };
 
     firebase.initializeApp(this.firebaseConfig);
