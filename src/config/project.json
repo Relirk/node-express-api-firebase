@@ -1,4 +1,7 @@
 {
+  "port": "8080",
+  "apiUrl": "http://localhost:8080",
+  "NODE_ENV": "development",
   "apiKey": "AIzaSyC4PPUygV2bmkambNkH4Bm0SoY--VTtxZI",
   "authDomain": "portifoil-bcd7d.firebaseapp.com",
   "databaseURL": "https://portifoil-bcd7d.firebaseio.com",
