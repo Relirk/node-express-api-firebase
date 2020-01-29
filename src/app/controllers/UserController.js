@@ -1,9 +1,11 @@
 import firebase from 'firebase';
 import crypto from 'crypto';
 
+const Node = '/Users/';
+
 class UserController {
   async index(req, res) {
-    const userReference = firebase.database().ref('/Users/');
+    const userReference = firebase.database().ref(Node);
 
     const snapshot = await userReference.once('value');
     return res.json(snapshot.val());
@@ -19,7 +21,7 @@ class UserController {
       .update(currentDate + random)
       .digest('hex');
 
-    const userReference = firebase.database().ref(`/Users/${hash}/`);
+    const userReference = firebase.database().ref(`${Node}${hash}/`);
     await userReference.set({ username, name, age });
 
     userReference.on('value', snapshot => {
@@ -30,7 +32,7 @@ class UserController {
   async update(req, res) {
     const { username, name, age } = req.body;
 
-    const userReference = firebase.database().ref(`/Users/${req.params.id}/`);
+    const userReference = firebase.database().ref(`${Node}${req.params.id}/`);
     await userReference.update({ username, name, age });
 
     userReference.on('value', snapshot => {
@@ -39,7 +41,7 @@ class UserController {
   }
 
   async remove(req, res) {
-    const userReference = firebase.database().ref(`/Users/${req.params.id}/`);
+    const userReference = firebase.database().ref(`${Node}${req.params.id}/`);
     await userReference.remove();
     return res.json();
   }
