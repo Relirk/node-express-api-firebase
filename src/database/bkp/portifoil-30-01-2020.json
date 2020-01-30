@@ -83,6 +83,13 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/portifoil-bcd7d.appspot.com/o/projects-screens%2Frelirk-twitter.png?alt=media&token=c1d3e6f3-527b-484a-ae92-b1b1eb812ed7",
         "url": "http://relirk-twitter.surge.sh/",
         "github": "https://github.com/Relirk/twitter-clone-frontend"
+      },
+      {
+        "id": "ffe8560492ef96f860b965341d0c9698",
+        "title": "Instagram",
+        "description": "Aplicação fake do Instagram, utilizando React e a API do S3 da Amazon para upload de fotos",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portifoil-bcd7d.appspot.com/o/projects-screens%2Frelirk-instagram.png?alt=media&token=3969c99c-b061-44d0-9da2-2b0bb2397c11",
+        "github": "https://github.com/Relirk/instagram-clone-frontend"
       }
     ],
     "work": [
@@ -109,6 +116,13 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/portifoil-bcd7d.appspot.com/o/projects-screens%2Frelirk-naturally-bizarre.png?alt=media&token=a386bd09-f1db-4fd4-a0f3-65750ec18c34",
         "url": "http://relirk-naturally-bizarre.surge.sh/",
         "github": "https://github.com/Relirk/naturally-bizarre"
+      },
+      {
+        "id": "900150983cd24fb0d6963f7d28e17f72",
+        "title": "Star Wars Info",
+        "description": "Aplicação de busca de categorias da SW Api utilizando recursos do React e Local Storage",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portifoil-bcd7d.appspot.com/o/projects-screens%2Frelirk-swinfo.png?alt=media&token=da6597b5-50a7-49a0-b0dd-2278b65d08ec",
+        "github": "https://github.com/Relirk/relirk.swInfo"
       },
       {
         "id": "d41d8cd98f00b204e9800998ecf8427e",
