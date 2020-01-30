@@ -30,18 +30,23 @@ APP_ID=*VIA CONSOLE DO FIREBASE*
 ## Rotas
 Esta API contém as seguintes rotas:
 
+#### Users
 * `GET /users` : lista os usuários do realtime database
 * `PUT /users/id` : atualiza o usuário com o ID :id
 * `POST /users` : cria um novo usuário
 * `DELETE /users/:id` : apaga o usuário com ID :id
-
+#### Projects
+* `GET /projects` : lista os projetos do realtime database
+* `PUT /projects/id` : atualiza o projeto com o ID :id
+* `POST /projects` : cria um novo projeto
+* `DELETE /projects/:id` : apaga o projeto com ID :id
 ## Exemplos
 
 ### GET /users
 
 Requisição: 
 ```javascript
-GET /tools
+GET /users
 ```
 Resposta:
 ```javascript
