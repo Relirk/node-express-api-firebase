@@ -1,4 +1,20 @@
-# API
+# NodeJS API Firebase
+<p align="left">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Relirk/node-express-api-firebase">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Relirk/node-express-api-firebase">
+  
+  <a href="https://github.com/Relirk/node-express-api-firebase/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Relirk/node-express-api-firebase">
+  </a>
+
+  <a href="https://github.com/Relirk/node-express-api-firebase/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Relirk/node-express-api-firebase">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+
 Este repositório contém uma API NodeJS utilizando express + serviços do Firebase
 
 Tecnologias:
